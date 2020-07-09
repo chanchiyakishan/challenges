@@ -1,0 +1,6 @@
+n = int(input())
+inp = set(input().split(" "))
+n1 = int(input())
+inp2 = set(input().split(" "))
+union = inp.union(inp2)
+print(len(union))
